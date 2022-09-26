@@ -3,7 +3,7 @@ import argparse
 
 def parser():
     parser = argparse.ArgumentParser(description='Video Summarization')
-    parser.add_argument('--todo', choices=['train', 'valid', 'test', 'visualize'], default='test_on_train',
+    parser.add_argument('--todo', choices=['train', 'valid', 'test', 'visualize'], default='test',
         help='what behavior want to do: train | valid | test | visualize')
     parser.add_argument('--dataset', default='cifar-10', help='use what dataset')
     parser.add_argument('--data_root', default='/home/efkaf/Data',
@@ -11,7 +11,7 @@ def parser():
     parser.add_argument('--log_root', default='log', 
         help='the directory to save the logs or other imformations (e.g. images)')
     parser.add_argument('--model_root', default='checkpoint', help='the directory to save the models')
-    parser.add_argument('--load_checkpoint', default='/home/efkaf/PycharmProjects/DATNS/checkpoint/cifar-10-rn18-datns/checkpoint_76000.pth')
+    parser.add_argument('--load_checkpoint', default='/home/cifar-10-rn18-datns/checkpoint_76000.pth')
     parser.add_argument('--affix', default='default', help='the affix for the save folder')
 
 
