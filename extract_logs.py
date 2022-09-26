@@ -82,42 +82,11 @@ if __name__ == '__main__':
 
     import matplotlib.pyplot as plt
 
-    # wrn 28x10 cifar10 from 100
-    #proposed100 = '/home/efkaf/PycharmProjects/efficient-adversarial-training/alt-switches/logs_paper/train_logs_wrn-20x10-cifar10-alternating_from_100.txt'
-    #proposed75 = '/home/efkaf/PycharmProjects/efficient-adversarial-training/alt-switches/log/cifar-10-wrn-from-75/train_log.txt'
-    #proposed55 = '/home/efkaf/PycharmProjects/efficient-adversarial-training/alt-switches/log/cifar-10-wrn-from-55/train_log.txt'
-
-
-    # #gupta = '/home/efkaf/PycharmProjects/efficient-adversarial-training/gupta/log/cifar-10_wrn/train_log.txt'
-    # madry = '/home/efkaf/PycharmProjects/efficient-adversarial-training/madry/log/cifar-10_wrn/train_log.txt'
-    # gupta = '/home/efkaf/PycharmProjects/efficient-adversarial-training/gupta/log/cifar-10-wrn-from-100/train_log.txt'
-
-    # rn18 cifar10
-    # proposed100 = '/home/efkaf/PycharmProjects/efficient-adversarial-training/alt-switches/log/cifar-100-rn18-from-55-random-73-rn18-pretrained-100-200-sp1/train_log.txt'
-    # proposed75 = '/home/efkaf/PycharmProjects/efficient-adversarial-training/alt-switches/log/cifar-10-rn18-from-75/train_log.txt'
-    # proposed55 = '/home/efkaf/PycharmProjects/efficient-adversarial-training/alt-switches/log/cifar-100-rn18-from-55-random-73-rn18-pretrained-55-200-sp1/train_log.txt'
-
-    # rn50 cifar10
-    #proposed100 = '/home/efkaf/PycharmProjects/efficient-adversarial-training/alt-switches/log/cifar-10-rn50-from-100/train_log.txt'
-    #proposed75 = '/home/efkaf/PycharmProjects/efficient-adversarial-training/alt-switches/log/cifar-10-rn50-from-75/train_log.txt'
-    #proposed55 = '/home/efkaf/PycharmProjects/efficient-adversarial-training/alt-switches/log/cifar-10-rn50-from-55/train_log.txt'
-
-
-    # rn50 cifar100
-    # proposed100 = '/home/efkaf/PycharmProjects/efficient-adversarial-training/alt-switches/logs_paper/rn50-cifar-100-from-100.txt'
-    # proposed75 = '/home/efkaf/PycharmProjects/efficient-adversarial-training/alt-switches/log/cifar-100-rn50-from-75/train_log.txt'
-    # proposed55 = '/home/efkaf/PycharmProjects/efficient-adversarial-training/alt-switches/log/cifar-100-rn50-from-55/train_log.txt'
-
-    # rn18 cifar100
-    # proposed100 = '/home/efkaf/PycharmProjects/efficient-adversarial-training/alt-switches/log/cifar-100-rn18-from-100/train_log.txt'
-    # proposed75 = '/home/efkaf/PycharmProjects/efficient-adversarial-training/alt-switches/log/cifar-100-rn18-from-75/train_log.txt'
-    # proposed55 = '/home/efkaf/PycharmProjects/efficient-adversarial-training/alt-switches/log/cifar-100-rn18-from-55/train_log.txt'
-
     # plot f at 55
     # cifar100-rn18 f=2,3,5
-    f2 = '/home/efkaf/PycharmProjects/efficient-adversarial-training/alt-switches/log/cifar-100-rn18-from-55/train_log.txt'
-    f3 = '/home/efkaf/PycharmProjects/efficient-adversarial-training/alt-switches/log/cifar-100-rn-18-from-55-sp-3/train_log.txt'
-    f5 = '/home/efkaf/PycharmProjects/efficient-adversarial-training/alt-switches/log/cifar-100-rn18-from-55-sp-5/train_log.txt'
+    f2 = 'from-55/train_log.txt'
+    f3 = 'from-55-sp-3/train_log.txt'
+    f5 = 'from-55-sp-5/train_log.txt'
 
     # cifar100-rn50 f=2,3,5
 
