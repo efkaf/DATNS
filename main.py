@@ -11,13 +11,11 @@ import random
 import numpy as np
 from time import time
 from madry_model import WideResNet
-# from fast_gradient_sign_untargeted import FastGradientSignUntargeted
-from utils import makedirs, create_logger, tensor2cuda, numpy2cuda, evaluate, save_model, SuperConvergence
+from utils import makedirs, create_logger, tensor2cuda, numpy2cuda, evaluate, save_model
 
 from advertorch.attacks import LinfPGDAttack
 from advertorch.context import ctx_noparamgrad_and_eval
 
-from subdata import *
 
 from sklearn.metrics import classification_report
 from sklearn.metrics import confusion_matrix
@@ -27,7 +25,7 @@ import seaborn as sns
 
 from argument import parser, print_args
 
-os.chdir("/home/efkaf/PycharmProjects/DATNS")
+os.chdir("/home/projects/DATNS")
 
 
 class Trainer():
