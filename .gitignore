@@ -4,3 +4,4 @@ default/
 log/
 next/
 weights/
+/extract_logs.py
